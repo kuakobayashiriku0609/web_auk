@@ -2,5 +2,5 @@ div{
     color:rgb(56, 66, 97);
     font-size: 1rem;
    background-color: rgb(187, 221, 255);
-   width: calc(100%-30%);
+   width: calc(100% - 30%);
 }
