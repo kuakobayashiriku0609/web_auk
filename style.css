@@ -27,7 +27,7 @@ footer{
     padding: 0;
 }
 .line{
-    width: 100%;
+    width: 0%;
     height: 1px;
     background-color: rgb(0, 0, 0);
     position: fixed;
