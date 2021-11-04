@@ -11,7 +11,9 @@
 <body>
   <div class="line"></div>
   <script>
-    $(".line").animate({"width":"100%"},1500)
+    $(".line").animate({"width":"100%"},1500,function(){
+      $(".line").animate({"width":"0%"})
+    })
   </script>
      <header>
         <h1>クロミア TOPページ</h1>
