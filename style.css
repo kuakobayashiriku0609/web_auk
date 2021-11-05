@@ -203,3 +203,33 @@ li{
 #header li :first-child{
     margin-left: 0;
 }
+
+#works ul {
+    flex-direction: column;
+}
+
+#works li {
+    width: 1005;
+}
+
+
+#news dl {
+    flex-direction: column;
+}
+
+#news dt {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#contact dl {
+    flex-direction: column;
+} 
+
+#cotact dt {
+    width: 100%;
+}
+#contact dd {
+    width: 100%;
+}
