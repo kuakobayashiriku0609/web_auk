@@ -176,3 +176,30 @@ li{
     padding: 10px  20px;
     text-align: center;
 }
+
+@media screen and (max-width:600px) {
+    .wrapper{
+        margin-bottom: 70px;
+    }
+}
+
+.site-tittle{
+    margin-top: 20px;
+}
+ 
+.sec-tittle{
+    margin-bottom: 40px;
+}
+
+#header {
+    max-width: 100%;
+    height:  auto;
+    flex-direction: column;
+} 
+#header li {
+   font-size: 0.8rem;
+   margin-left: 20px;
+} 
+#header li :first-child{
+    margin-left: 0;
+}
