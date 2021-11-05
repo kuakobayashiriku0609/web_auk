@@ -107,3 +107,25 @@ li{
 #about p {
     text-align: justify;
 }
+
+#works ul{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#works li {
+   width: 31%;
+   margin-bottom: 23px;
+}
+
+#news dl {
+   display: flex;
+   flex-wrap: wrap;
+   border-top: solid 1px #c8c8c8;
+   margin-bottom: 20px;
+}
+#news dt {
+    
+}
